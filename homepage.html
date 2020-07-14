@@ -3,50 +3,57 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
     <title>Homepage</title>
   </head>
   <body>
-    <!-- cabeçalho -->
-    <header>
-      <!-- logo -->
-      <img src="./assets/images/logo.png" alt="Logo" />
+    <div class="hero-image">
+      <div class="container">
+        <!-- cabeçalho -->
+        <header>
+          <!-- logo -->
+          <img src="./assets/images/logo.png" alt="Logo" />
 
-      <!-- menu de navegação -->
-      <nav>
-        <!-- unordered list -->
-        <ul>
-          <li>
-            <a href="work.html">WORK</a>
-          </li>
-          <li>
-            <a href="about.html">ABOUT</a>
-          </li>
-          <li>
-            <a href="writing.html">WRITING</a>
-          </li>
-          <li>
-            <a href="contact.html">CONTACT</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+          <!-- menu de navegação -->
+          <nav>
+            <!-- unordered list -->
+            <ul>
+              <li>
+                <a href="work.html">WORK</a>
+              </li>
+              <li>
+                <a href="about.html">ABOUT</a>
+              </li>
+              <li>
+                <a href="writing.html">WRITING</a>
+              </li>
+              <li>
+                <a href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
 
-    <!-- conteúdo principal -->
-    <main>
-      <!-- texto -->
-      <div>
-        <h1>So much more than pixels.</h1>
-        <p>
-          Hello, my name is Pedro and I'm passionate about making things that
-          make an impact.
-        </p>
+        <!-- conteúdo principal -->
+        <main>
+          <!-- texto -->
+          <div>
+            <h1 class="hero-title">
+              So much more than pixels.
+            </h1>
+            <p>
+              Hello, my name is Pedro and I'm passionate about making things
+              that make an impact.
+            </p>
+          </div>
+
+          <!-- call to action -->
+          <div>
+            <a href="work.html">See my work</a>
+            <a href="contact.html">Hire me</a>
+          </div>
+        </main>
       </div>
-
-      <!-- call to action -->
-      <div>
-        <a href="work.html">See my work</a>
-        <a href="contact.html">Hire me</a>
-      </div>
-    </main>
+    </div>
   </body>
 </html>
