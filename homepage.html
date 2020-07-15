@@ -10,49 +10,55 @@
     <div class="hero-image">
       <div class="container">
         <!-- cabeçalho -->
-        <header>
+        <header class="flex-header">
           <!-- logo -->
-          <img src="./assets/images/logo.png" alt="Logo" />
+          <img src="./assets/images/logo.png" alt="Logo" class="logo" />
 
           <!-- menu de navegação -->
-          <nav>
+          <nav class="nav-links-list">
             <!-- unordered list -->
             <ul>
               <li>
-                <a href="work.html">WORK</a>
+                <a class="default-link-spacing" href="work.html">WORK</a>
               </li>
               <li>
-                <a href="about.html">ABOUT</a>
+                <a class="default-link-spacing" href="about.html">ABOUT</a>
               </li>
               <li>
-                <a href="writing.html">WRITING</a>
+                <a class="default-link-spacing" href="writing.html">WRITING</a>
               </li>
               <li>
-                <a href="contact.html">CONTACT</a>
+                <a class="default-link-spacing" href="contact.html">CONTACT</a>
               </li>
             </ul>
           </nav>
         </header>
 
         <!-- conteúdo principal -->
-        <main>
-          <!-- texto -->
-          <div>
-            <h1 class="hero-title">
-              So much more than pixels.
-            </h1>
-            <p>
-              Hello, my name is Pedro and I'm passionate about making things
-              that make an impact.
-            </p>
-          </div>
+        <div class="flex-container">
+          <main>
+            <!-- texto -->
+            <div>
+              <h1 class="hero-title">
+                So much more than pixels.
+              </h1>
+              <p class="hero-text">
+                Hello, my name is Pedro and I'm passionate about making things
+                that make an impact.
+              </p>
+            </div>
 
-          <!-- call to action -->
-          <div>
-            <a href="work.html">See my work</a>
-            <a href="contact.html">Hire me</a>
-          </div>
-        </main>
+            <!-- call to action -->
+            <div class="hero-buttons-container">
+              <a class="nav-button default-link-spacing" href="work.html"
+                >SEE MY WORK</a
+              >
+              <a class="nav-button default-link-spacing" href="contact.html"
+                >HIRE ME</a
+              >
+            </div>
+          </main>
+        </div>
       </div>
     </div>
   </body>
