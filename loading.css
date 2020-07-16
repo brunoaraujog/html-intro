@@ -1,0 +1,25 @@
+.loading-spinner {
+  height: 50px;
+  transition: transform 1s;
+}
+
+.loading-spinner:hover {
+  transform: translate(100px, 100px);
+}
+
+.red {
+  position: relative;
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  opacity: 0.5;
+}
+
+.green {
+  position: absolute;
+  top: 10%;
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}

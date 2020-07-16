@@ -5,7 +5,7 @@ body {
 /* BOOTSTRAP OVERRIDES */
 
 .bg-dark {
-  background-color: transparent !important;
+  background-color: #000 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -34,7 +34,7 @@ body {
 
 .hero-text {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   padding-top: 3rem;
 }
@@ -55,8 +55,10 @@ body {
   text-decoration: none;
   font-weight: bold;
   border: 2px solid #fff;
+  background-color: transparent;
   border-radius: 2px;
   padding: 0.7rem;
+  transition: color 0.5s, border 0.5s, background-color 0.5s;
 }
 
 .custom-container {
@@ -68,4 +70,104 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+/* Small range (sm) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .custom-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+  }
+
+  .nav-button {
+    font-size: 1.5rem;
+  }
+}
+
+/* Large range (lg) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .custom-container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .nav-button-container {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  .bg-dark {
+    background-color: transparent !important;
+  }
+
+  .navbar {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+/* Extra large range (xg) */
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+
+  .hero-text {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  .custom-container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .nav-button-container {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+
+  .bg-dark {
+    background-color: transparent !important;
+  }
+
+  .navbar {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .custom-flex-container {
+    justify-content: center;
+  }
+
+  .nav-button:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0.7rem;
+  }
+
+  .nav-link {
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.5s;
+  }
+
+  .nav-link:hover {
+    border-bottom: 3px solid #fff;
+  }
 }
