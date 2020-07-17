@@ -110,35 +110,20 @@ body {
 
 /* Extra small range (xs) */
 @media screen and (max-width: 320px) {
-  body {
-    height: 400px;
-  }
 }
 
 /* Small range (sm) */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  body {
-    height: 400px;
-  }
 }
 
 /* Medium range (md) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  body {
-    height: 400px;
-  }
 }
 
 /* Large range (lg) */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  body {
-    height: 400px;
-  }
 }
 
 /* Extra large range (xg) */
 @media screen and (min-width: 1200px) {
-  body {
-    height: 400px;
-  }
 }
